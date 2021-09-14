@@ -14,7 +14,8 @@ app.listen(port, () => {
 app.get("/user1", (req, res, next) => {
     res.json({
         "username": 'FlyingWolf',
-        "name": 'Simon Baker', 
+        "name": 'Simon Baker',
+        "elo_rating": 2250, 
         'tournaments_played': 34, 
         'tournaments_won': 09,
         'win_per': 26, 
@@ -26,6 +27,7 @@ app.get("/user2", (req, res, next) => {
     res.json({
         "username": 'Illuminati',
         "name": 'Abhay', 
+        "elo_rating": 1120,
         'tournaments_played': 20, 
         'tournaments_won': 01,
         'win_per': 05,
